@@ -22,7 +22,7 @@ Everything is in `index.html`, organized by section:
 - **About** (`#about`) — replace placeholder paragraphs and the quick-facts box.
 - **Skills** (`#skills`) — edit the `.chips` lists to match your stack.
 - **Projects** (`#projects`) — duplicate a `.card` block per project; set title, description, tags, and the `Code` / `Live` links.
-- **Contact** (`#contact`) — email and social links.
+- **Contact** (`#contact`) — email and social media links.
 
 ### Add your photo
 1. Drop an image in `assets/` (e.g. `assets/me.jpg`).
