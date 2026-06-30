@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Bhavesh Kumar — B.Tech CSE (AI) student. Projects, skills, and contact." />
+  <title>Bhavesh Kumar — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="nav" id="nav">
+    <a href="#home" class="nav__logo">BK<span>.</span></a>
+    <nav class="nav__links" id="navLinks">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="nav__actions">
+      <button id="themeToggle" class="icon-btn" aria-label="Toggle theme" title="Toggle theme">🌙</button>
+      <button id="menuToggle" class="icon-btn nav__burger" aria-label="Open menu">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero" id="home">
+      <div class="hero__content">
+        <p class="hero__greeting">Hi, I'm</p>
+        <h1 class="hero__name">Bhavesh Kumar</h1>
+        <h2 class="hero__role">
+          <span class="typed" id="typed"></span><span class="cursor">|</span>
+        </h2>
+        <p class="hero__tagline">
+          B.Tech CSE (Artificial Intelligence) student passionate about building
+          intelligent, useful software. Always learning, always shipping.
+        </p>
+        <div class="hero__cta">
+          <a href="#projects" class="btn btn--primary">View My Work</a>
+          <a href="#contact" class="btn btn--ghost">Get In Touch</a>
+        </div>
+        <div class="hero__socials">
+          <a href="https://github.com/justbhavesh" target="_blank" rel="noopener" aria-label="GitHub">GitHub</a>
+          <a href="https://www.linkedin.com/in/justbhavesh/" target="_blank" rel="noopener" aria-label="LinkedIn">LinkedIn</a>
+          <a href="mailto:bhavesh3bharti@gmail.com" aria-label="Email">Email</a>
+        </div>
+      </div>
+      <div class="hero__avatar">
+        <div class="avatar-ring">
+          <!-- Replace with your photo: put image in assets/ and set src -->
+          <div class="avatar-placeholder" id="avatar">BK</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section" id="about">
+      <h2 class="section__title"><span class="section__num">01.</span> About Me</h2>
+      <div class="about">
+        <div class="about__text">
+          <p>
+            I'm <strong>Bhavesh Kumar</strong>, a B.Tech Computer Science &amp;
+            Engineering student specializing in <strong>Artificial Intelligence</strong>.
+            I enjoy turning ideas into real, working products — from web apps to
+            machine-learning experiments.
+          </p>
+          <p>
+            <em>This is placeholder text — edit the <code>#about</code> section in
+            index.html to tell your own story: what you're learning, what you've
+            built, and what you're looking for.</em>
+          </p>
+          <p>A few things I'm currently exploring:</p>
+          <ul class="about__list">
+            <li>Machine Learning &amp; Deep Learning</li>
+            <li>Full-stack web development</li>
+            <li>Data structures &amp; algorithms</li>
+            <li>Open-source contributions</li>
+          </ul>
+        </div>
+        <div class="about__facts">
+          <div class="fact"><span class="fact__k">Degree</span><span class="fact__v">B.Tech CSE (AI)</span></div>
+          <div class="fact"><span class="fact__k">Focus</span><span class="fact__v">AI / ML &amp; Web</span></div>
+          <div class="fact"><span class="fact__k">Location</span><span class="fact__v">India</span></div>
+          <div class="fact"><span class="fact__k">Status</span><span class="fact__v">Open to internships</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section" id="skills">
+      <h2 class="section__title"><span class="section__num">02.</span> Skills &amp; Tools</h2>
+      <p class="section__lead">A snapshot of what I work with. <em>(Edit these to match your stack.)</em></p>
+      <div class="skills">
+        <div class="skill-group">
+          <h3>Languages</h3>
+          <ul class="chips">
+            <li>Python</li><li>JavaScript</li><li>C++</li><li>Java</li><li>SQL</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h3>AI / ML</h3>
+          <ul class="chips">
+            <li>NumPy</li><li>Pandas</li><li>scikit-learn</li><li>TensorFlow</li><li>PyTorch</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h3>Web</h3>
+          <ul class="chips">
+            <li>HTML</li><li>CSS</li><li>React</li><li>Node.js</li><li>Flask</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h3>Tools</h3>
+          <ul class="chips">
+            <li>Git &amp; GitHub</li><li>VS Code</li><li>Linux</li><li>Jupyter</li><li>Docker</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section" id="projects">
+      <h2 class="section__title"><span class="section__num">03.</span> Projects</h2>
+      <p class="section__lead">
+        Placeholder projects below — replace each card with your real work
+        (name, description, tech, and links).
+      </p>
+      <div class="projects">
+        <!-- Project card template -->
+        <article class="card">
+          <div class="card__top">
+            <span class="card__icon">📦</span>
+            <div class="card__links">
+              <a href="#" target="_blank" rel="noopener" aria-label="Repository">Code</a>
+              <a href="#" target="_blank" rel="noopener" aria-label="Live demo">Live</a>
+            </div>
+          </div>
+          <h3 class="card__title">Project One</h3>
+          <p class="card__desc">
+            Short description of what this project does and the problem it solves.
+            Swap this out for a real project.
+          </p>
+          <ul class="card__tags"><li>Python</li><li>Flask</li><li>SQLite</li></ul>
+        </article>
+
+        <article class="card">
+          <div class="card__top">
+            <span class="card__icon">🤖</span>
+            <div class="card__links">
+              <a href="#" target="_blank" rel="noopener">Code</a>
+              <a href="#" target="_blank" rel="noopener">Live</a>
+            </div>
+          </div>
+          <h3 class="card__title">Project Two</h3>
+          <p class="card__desc">
+            An ML model or notebook you built. Mention the dataset, approach, and
+            the result or accuracy you achieved.
+          </p>
+          <ul class="card__tags"><li>PyTorch</li><li>Pandas</li><li>Jupyter</li></ul>
+        </article>
+
+        <article class="card">
+          <div class="card__top">
+            <span class="card__icon">🌐</span>
+            <div class="card__links">
+              <a href="#" target="_blank" rel="noopener">Code</a>
+              <a href="#" target="_blank" rel="noopener">Live</a>
+            </div>
+          </div>
+          <h3 class="card__title">Project Three</h3>
+          <p class="card__desc">
+            A web app or frontend project. Describe the stack and one feature
+            you're proud of.
+          </p>
+          <ul class="card__tags"><li>React</li><li>Node.js</li><li>CSS</li></ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section section--contact" id="contact">
+      <h2 class="section__title"><span class="section__num">04.</span> Get In Touch</h2>
+      <p class="contact__lead">
+        I'm open to internships, collaborations, and interesting problems.
+        The fastest way to reach me is email — I'll get back to you soon.
+      </p>
+      <a href="mailto:bhavesh3bharti@gmail.com" class="btn btn--primary btn--lg">Say Hello</a>
+      <div class="contact__links">
+        <a href="https://github.com/justbhavesh" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://www.linkedin.com/in/justbhavesh/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="mailto:bhavesh3bharti@gmail.com">bhavesh3bharti@gmail.com</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Built with HTML, CSS &amp; JS · Hosted on GitHub Pages</p>
+    <p>© <span id="year"></span> Bhavesh Kumar</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
